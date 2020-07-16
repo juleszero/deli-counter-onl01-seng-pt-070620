@@ -10,8 +10,14 @@ def line(array)
   else
     array.each_with_index do |name, index|
       deli_line << "#{index+1}. #{name}"
+<<<<<<< HEAD
   end
   puts "The line is currently: #{deli_line.join(" ")}"
+=======
+      deli_line.join(" ")
+  end
+  puts "The line is currently: #{deli_line}"
+>>>>>>> 6f62e211fc18531fa730562c0ec2788437654fa0
   end  
 end
 
